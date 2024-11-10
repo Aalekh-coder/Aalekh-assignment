@@ -57,13 +57,11 @@ const LoginPage = () => {
               />
             </div>
 
-            <Link href="/Home">
             <button
               className="w-full py-2 px-4 bg-red-700 text-white font-semibold rounded hover:bg-red-900 transition"
             >
-                Login
+              <Link href="/Home">Login</Link>
             </button>
-            </Link>
           </div>
 
           {/* Optional Links */}
