@@ -22,7 +22,7 @@ const LoginPage = () => {
       <div className="flex w-full md:w-1/2 items-center justify-center p-8 bg-red-950">
         <div className="w-full max-w-md">
           <h1 className="text-3xl font-bold text-white mb-6">Login</h1>
-          <form className="space-y-6">
+          <div className="space-y-6">
             <div>
               <label
                 htmlFor="email"
@@ -62,7 +62,7 @@ const LoginPage = () => {
             >
               <Link href="/Home">Login</Link>
             </button>
-          </form>
+          </div>
 
           {/* Optional Links */}
           <div className="mt-4 text-sm text-center text-gray-400">

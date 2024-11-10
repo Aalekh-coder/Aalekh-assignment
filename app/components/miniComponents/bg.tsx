@@ -34,7 +34,7 @@ interface BgProps {
 
 const Bg: React.FC<BgProps> = ({ children }) => {
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full min-h-screen overflow-hidden">
       <Image
         src="/assets/Bg.png"
         layout="fill"
